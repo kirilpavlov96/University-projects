@@ -1,0 +1,22 @@
+(define (sum-step start end step)
+  (define (helper1 current sum end)
+    (if (> current end)
+        sum
+        (helper1 (+ current step) (+ sum current) end)))
+  (define (helper2 current sum end)
+    (if (< current end)
+        sum
+        (helper2 (+ current step) (+ sum current) end)))
+ (if (> start end)
+      (if (< step 0)
+          (helper2 start 0 end)
+          (display "undefined")
+          )
+      (if (< start end)
+          (if (> step 0)
+              (helper1 start 0 end)
+              (display "undefined"))
+          (display "undefined"))
+      )
+  )
+      

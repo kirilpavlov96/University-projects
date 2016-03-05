@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1453561293 source:d:\sdp\proekt\tom&jerry\dron.cpp
+	<iostream>
+	<cstring>
+	"Dron.h"
+	<stdio.h>
+
+1453637387 source:d:\sdp\proekt\tom&jerry\main.cpp
+	<cmath>
+	"Room.h"
+	"Dron.h"
+	<windows.h>
+
+1453556993 d:\sdp\proekt\tom&jerry\room.h
+
+1453556993 source:d:\sdp\proekt\tom&jerry\room.cpp
+	"Room.h"
+	<iostream>
+	<fstream>
+	<string>
+	<windows.h>
+
+1452275216 d:\sdp\proekt\tom&jerry\tree.h
+	<cstring>
+	<iostream>
+
+1452427108 source:d:\sdp\proekt\tom&jerry\bintree.cpp
+	<iostream>
+
+1453465697 source:d:\sdp\proekt\tom&jerry\tree.cpp
+	<iostream>
+
+1453467982 d:\sdp\proekt\tom&jerry\tree.cpp
+	<iostream>
+
+1453632810 d:\sdp\proekt\tom&jerry\dron.h
+	"MyTree.cpp"
+
+1453634215 d:\sdp\proekt\tom&jerry\mytree.cpp
+	<iostream>
+	<stdio.h>
+
+1453634215 source:d:\sdp\proekt\tom&jerry\mytree.cpp
+	<iostream>
+	<stdio.h>
+

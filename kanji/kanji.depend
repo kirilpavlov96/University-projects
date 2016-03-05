@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1448052571 source:d:\okg\kanji\kanji.cpp
+	<cstdlib>
+	<iostream>
+	<math.h>
+	<GL/glfw.h>
+
+1281310624 c:\glfw-2.7.bin.win32\include\gl\glfw.h
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
